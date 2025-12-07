@@ -1,73 +1,78 @@
-# React + TypeScript + Vite
+# Samgnya Website Redesign (Home + Research)
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This project is a redesign of the IITM CDOT Samgnya website.  
+I have completed 2 modules:
 
-Currently, two official plugins are available:
+1. **Home Page**
+2. **Initiatives → Our Research Page**
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+The goal was to improve the UI, make it modern, clean, and easy to navigate.
 
-## React Compiler
+---
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## 🔗 Live Demo 
+https://samgnya-redesign.vercel.app
 
-## Expanding the ESLint configuration
+---
 
-If you are developing a production application, we recommend updating the configuration to enable type-aware lint rules:
+## ✨ What I have completed
 
-```js
-export default defineConfig([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
+### ✅ Home Page
+- New hero banner  
+- Mission / Vision / Focus cards  
+- Initiatives preview cards  
+- Partners & Collaborators logos (scroll animation)  
+- Clean header & footer  
+- Fully responsive (mobile-friendly)
 
-      // Remove tseslint.configs.recommended and replace with this
-      tseslint.configs.recommendedTypeChecked,
-      // Alternatively, use this for stricter rules
-      tseslint.configs.strictTypeChecked,
-      // Optionally, add this for stylistic rules
-      tseslint.configs.stylisticTypeChecked,
+### ✅ Our Research Page
+- Stanford-style expandable group section  
+- Two-column comparison (Stanford vs Samgnya groups)  
+- Research cards with:
+  - Filters  
+  - Search  
+  - Modal popup with details  
+- Clean academic layout  
+- Smooth animations (Framer Motion)
 
-      // Other configs...
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
-```
+---
 
-You can also install [eslint-plugin-react-x](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-x) and [eslint-plugin-react-dom](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-dom) for React-specific lint rules:
+## 🛠 Tech Used
+- **React + TypeScript**  
+- **Vite**  
+- **Tailwind CSS**  
+- **Framer Motion**  
+- **React Router**  
+- **React Icons**
 
-```js
-// eslint.config.js
-import reactX from 'eslint-plugin-react-x'
-import reactDom from 'eslint-plugin-react-dom'
+---
 
-export default defineConfig([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
-      // Enable lint rules for React
-      reactX.configs['recommended-typescript'],
-      // Enable lint rules for React DOM
-      reactDom.configs.recommended,
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
-```
+## ▶️ How to Run This Project Locally
+
+### 1. Install dependencies - npm install
+### 2. Start development server - npm run dev
+
+
+## 📁 Folder Structure (Easy Overview)
+src/
+components/ → All UI components (Header, Hero, MissionCards, etc.)
+pages/ → HomePage and ResearchPage
+data/ → Research data + Technical groups data
+public/ → Images (logo, hero, partner logos)
+------------------------------------------
+## 👨‍💻 Developer
+**Guna Sekaran**  
+Project Engineer  
+Email: gunak305@gmail.com  
+Phone:6380305472
+-------------------------------------------
+
+## 📌 Notes
+This project is for review and demonstration for IITM CDOT Samgnya.  
+Logos/content belong to IITM CDOT Samgnya Foundation.
+
+
+
+
+
+

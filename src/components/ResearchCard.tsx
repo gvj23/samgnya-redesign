@@ -1,5 +1,4 @@
 // src/components/ResearchCard.tsx
-import React from "react";
 import { motion } from "framer-motion";
 import type { ResearchItem } from "../data/researchData";
 

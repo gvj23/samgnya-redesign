@@ -1,5 +1,4 @@
 // src/components/ProjectModal.tsx
-import React from "react";
 import UiModal from "./UiModal";
 import type { ResearchItem } from "../data/researchData";
 

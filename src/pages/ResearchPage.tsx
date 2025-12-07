@@ -9,7 +9,6 @@ import TechnicalGroups from "../components/TechnicalGroups";
 import RESEARCH_DATA, { type ResearchItem } from "../data/researchData";
 import { leftGroups, rightGroups } from "../data/technicalGroups";
 import { Link } from "react-router-dom";
-import { FaHome } from "react-icons/fa";
 
 export default function ResearchPage() {
     // derive categories from data

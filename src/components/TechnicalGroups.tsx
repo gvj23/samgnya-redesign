@@ -1,7 +1,7 @@
 // TechnicalGroups.tsx
 import React from "react";
 import { motion } from "framer-motion";
-import { HiOutlineSparkles, HiOutlineCollection } from "react-icons/hi";
+import { HiOutlineSparkles } from "react-icons/hi";
 
 export type Group = {
     id: string;

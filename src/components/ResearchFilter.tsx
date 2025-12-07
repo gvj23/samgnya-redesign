@@ -1,5 +1,4 @@
 // src/components/ResearchFilter.tsx
-import React from "react";
 
 type Props = {
     categories: string[];

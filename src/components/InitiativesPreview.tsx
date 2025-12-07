@@ -1,7 +1,7 @@
 // InitiativesPreview.tsx
-import React, { useState } from "react";
 import { motion } from "framer-motion";
 import Modal from "./UiModal";
+import { useState } from "react";
 
 type Initiative = {
     id: string;

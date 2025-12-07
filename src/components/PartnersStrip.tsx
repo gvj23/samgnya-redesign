@@ -1,5 +1,4 @@
 // PartnersStrip.tsx
-import React from "react";
 
 const LOGOS = [
     "/partner1.png",

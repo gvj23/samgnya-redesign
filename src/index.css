@@ -1,0 +1,45 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* custom variables & defaults */
+:root {
+  --samBg: #F5FAFD;
+}
+
+body {
+  background-color: var(--samBg);
+  color: #0b1a2b;
+  font-family: "Inter", sans-serif;
+}
+
+/* small helper if you want the heading font */
+.font-heading {
+  font-family: "Merriweather", serif;
+}
+
+/* Partners marquee animation */
+@keyframes marquee {
+  0% {
+    transform: translateX(0);
+  }
+
+  100% {
+    transform: translateX(-50%);
+  }
+}
+
+/* marquee helper class */
+.marquee {
+  will-change: transform;
+  animation-name: marquee;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+  /* default speed (change in the component via inline style) */
+  animation-duration: 20s;
+}
+
+/* pause the marquee when hovering */
+.marquee:hover {
+  animation-play-state: paused;
+}

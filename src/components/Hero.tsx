@@ -59,6 +59,7 @@ export default function Hero() {
             <div className="absolute left-0 right-0 -mt-6 top-auto bottom-24 pointer-events-none">
                 <div className="max-w-[1180px] mx-auto px-6 flex items-start gap-3 pointer-events-auto z-50">
                     <Link
+
                         to="/research"
                         className="inline-block bg-[#0b4a72] text-white px-5 py-2 rounded-md shadow-md transition hover:brightness-95 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-[#0b4a72]/30"
                     >

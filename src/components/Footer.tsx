@@ -6,10 +6,9 @@ export default function Footer() {
 
                 {/* Column 1 */}
                 <div>
-                    <h5 className="font-semibold text-base mb-2">IITM CDOT Samgnya</h5>
+                    <h5 className="font-semibold text-base mb-2">Samgnya Technologies Foundation</h5>
                     <p className="text-gray-700 leading-relaxed">
-                        IIT Madras Research Park,<br />
-                        Chennai
+                        A National Hub for Quantum Secure Communications
                     </p>
                 </div>
 
@@ -17,26 +16,24 @@ export default function Footer() {
                 <div>
                     <h5 className="font-semibold text-base mb-2">Quick Links</h5>
                     <ul className="space-y-2 text-gray-700">
-                        <li className="hover:text-samAccent cursor-pointer">Initiatives</li>
-                        <li className="hover:text-samAccent cursor-pointer">Research</li>
-                        <li className="hover:text-samAccent cursor-pointer">Careers</li>
+                        <li><a href="/research" className="hover:text-samAccent">Our Research</a></li>
+                        <li><a href="/#initiatives" className="hover:text-samAccent">Initiatives</a></li>
+                        <li><a href="/#partners" className="hover:text-samAccent">Partners</a></li>
                     </ul>
                 </div>
 
-                {/* Column 3 */}
+                {/* Column 3 — replace email/phone with contact form link */}
                 <div>
                     <h5 className="font-semibold text-base mb-2">Contact</h5>
-                    <ul className="space-y-2 text-gray-700 leading-relaxed">
-                        <li>Email: info@samgnya.in</li>
-                        <li>Phone: +91-XXXXXXXXXX</li>
-                    </ul>
+                    <p className="text-gray-700">
+                        For enquiries, please use our <a href="/contact" className="text-[#073763] underline">Contact form</a>.
+                    </p>
                 </div>
 
             </div>
 
-            {/* Copyright */}
             <div className="text-center py-4 text-xs text-gray-500 bg-[#F5F7FA] border-t">
-                © {new Date().getFullYear()} Samgnya Technologies
+                © {new Date().getFullYear()} Samgnya Technologies Foundation
             </div>
         </footer>
     );
